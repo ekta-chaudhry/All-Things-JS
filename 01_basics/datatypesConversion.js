@@ -14,3 +14,12 @@ console.log(newScore)
 let vari = null
 console.log(typeof vari)
 console.log(vari)
+
+let anotherVar = 33
+let convertedVar = Boolean(anotherVar)
+console.log(convertedVar)
+
+//1 => true
+//0 => false
+//"" => false
+//"any string" => true
